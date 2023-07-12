@@ -1,5 +1,5 @@
 ====================================
-Minecraft Overviewer  |Build Status|
+Minecraft Overviewer
 ====================================
 By Andrew Brown and contributors (see CONTRIBUTORS.rst).
 
@@ -7,18 +7,23 @@ Documentation:
     http://docs.overviewer.org
 
 Github code repository:
-    https://github.com/overviewer/Minecraft-Overviewer
-
-Travis-CI:
-    https://travis-ci.org/overviewer/Minecraft-Overviewer
+    https://github.com/Craftserve/Minecraft-Overviewer
 
 Blog:
     https://overviewer.org/blog/
 
 
-**PLEASE NOTE: Overviewer is currently unmaintained. PRs will not be merged
-and issues will not be addressed. The website and repository will remain online
-and accessible.**
+This version supports Minecraft 1.20.1 map rendering with few issues.
+-------------------------
+
+Unsupported blocks:
+
+- Hanging Signs
+- Sniffer Egg
+- Piglin Head
+- Decorated Pot
+
+-------------------------
 
 The Minecraft Overviewer is a command-line tool for rendering high-resolution
 maps of Minecraft worlds. It generates a set of static html and image files and
@@ -91,5 +96,3 @@ https://github.com/overviewer/Minecraft-Overviewer/issues
 
 Feel free to comment on issues, report new issues, and vote on issues that are
 important to you.
-
-.. |Build Status| image:: https://secure.travis-ci.org/overviewer/Minecraft-Overviewer.svg?branch=master
