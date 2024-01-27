@@ -13,7 +13,7 @@ Blog:
     https://overviewer.org/blog/
 
 
-This version supports Minecraft 1.20.1 map rendering with few issues.
+This version supports Minecraft 1.20.3 map rendering with few issues.
 -------------------------
 
 Unsupported blocks:
