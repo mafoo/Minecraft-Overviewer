@@ -362,6 +362,7 @@ class RegionSet(object):
             'minecraft:cobweb': (30, 0),
             'minecraft:dead_bush': (31, 0),
             'minecraft:grass': (31, 1),
+            'minecraft:short_grass': (31, 1),
             'minecraft:fern': (31, 2),
             'minecraft:piston': (33, 0),
             'minecraft:piston_head': (34, 0),
@@ -1108,7 +1109,7 @@ class RegionSet(object):
             # Frogspawn
             'minecraft:frogspawn': (1231, 0),
             # Amethyst Cluster
-            'minecraft:amethyst_cluster': (1232, 0), 
+            'minecraft:amethyst_cluster': (1232, 0),
             'minecraft:sculk_catalyst': (1244, 0),
         }
 
