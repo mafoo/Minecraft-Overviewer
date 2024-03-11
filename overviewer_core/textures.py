@@ -26,9 +26,12 @@ import numpy
 from PIL import Image, ImageEnhance, ImageOps, ImageDraw
 import logging
 import functools
+from pkg_resources import parse_version
 
 from . import util
 
+if parse_version(Image.__version__)>=parse_version('10.0.0'):
+    Image.ANTIALIAS=Image.LANCZOS
 
 BLOCKTEX = "assets/minecraft/textures/block/"
 
